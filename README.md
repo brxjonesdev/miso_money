@@ -1,30 +1,26 @@
-# React + TypeScript + Vite
+# MisoMoney
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MisoMoney is a budgeting app designed to help users manage their finances effectively.
 
-Currently, two official plugins are available:
+## Features to be Implemented
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Budget Tracking**: Keep track of income and expenses.
+- **Financial Reports**: Generate detailed financial reports.
+- **Expense Categorization**: Categorize expenses to understand spending habits.
+- **Goal Setting**: Set and track financial goals.
+- **Recurring Transactions**: Manage recurring income and expenses.
+- **Alerts and Notifications**: Get notified about upcoming bills and budget limits.
+- **Data Visualization**: Visualize your financial data with charts and graphs.
+- **Secure and Private**: Ensure your financial data is secure and private.
+- **Choose Your Own Budgeting Method**: Users can choose from three popular budgeting methods: Zero-Based, Percentage(70/20/10 & 50/30/20) and Envelope.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+NextJS, Typescript, Recharts, Tailwind, Socket.IO, Auth0 (currently)
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## License
+
+This project is licensed under the MIT License.
